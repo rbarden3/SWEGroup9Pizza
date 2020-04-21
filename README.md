@@ -9,5 +9,7 @@ SWE Sprint 2 - Group 9
 * Add Button Functionality to move between screens
 * Add a My Cart page
 * Update Cart Screen with Order
+* Document Code with triple slash (///) style comments for C# code
+* Create executable (.exe) once finished
 
 
