@@ -1,0 +1,10 @@
+C:\Users\Raleigh\Documents\GitHub\SWEGroup9Pizza\Group 9 - Pizza Project - Sprint 2\Group 9 - Pizza Project - Sprint 2\bin\Debug\Group 9 - Pizza Project - Sprint 2.exe.config
+C:\Users\Raleigh\Documents\GitHub\SWEGroup9Pizza\Group 9 - Pizza Project - Sprint 2\Group 9 - Pizza Project - Sprint 2\bin\Debug\Group 9 - Pizza Project - Sprint 2.exe
+C:\Users\Raleigh\Documents\GitHub\SWEGroup9Pizza\Group 9 - Pizza Project - Sprint 2\Group 9 - Pizza Project - Sprint 2\bin\Debug\Group 9 - Pizza Project - Sprint 2.pdb
+C:\Users\Raleigh\Documents\GitHub\SWEGroup9Pizza\Group 9 - Pizza Project - Sprint 2\Group 9 - Pizza Project - Sprint 2\obj\Debug\Group 9 - Pizza Project - Sprint 2.csprojAssemblyReference.cache
+C:\Users\Raleigh\Documents\GitHub\SWEGroup9Pizza\Group 9 - Pizza Project - Sprint 2\Group 9 - Pizza Project - Sprint 2\obj\Debug\Group_9___Pizza_Project___Sprint_2.Form1.resources
+C:\Users\Raleigh\Documents\GitHub\SWEGroup9Pizza\Group 9 - Pizza Project - Sprint 2\Group 9 - Pizza Project - Sprint 2\obj\Debug\Group_9___Pizza_Project___Sprint_2.Form2.resources
+C:\Users\Raleigh\Documents\GitHub\SWEGroup9Pizza\Group 9 - Pizza Project - Sprint 2\Group 9 - Pizza Project - Sprint 2\obj\Debug\Group_9___Pizza_Project___Sprint_2.Properties.Resources.resources
+C:\Users\Raleigh\Documents\GitHub\SWEGroup9Pizza\Group 9 - Pizza Project - Sprint 2\Group 9 - Pizza Project - Sprint 2\obj\Debug\Group 9 - Pizza Project - Sprint 2.csproj.GenerateResource.cache
+C:\Users\Raleigh\Documents\GitHub\SWEGroup9Pizza\Group 9 - Pizza Project - Sprint 2\Group 9 - Pizza Project - Sprint 2\obj\Debug\Group 9 - Pizza Project - Sprint 2.exe
+C:\Users\Raleigh\Documents\GitHub\SWEGroup9Pizza\Group 9 - Pizza Project - Sprint 2\Group 9 - Pizza Project - Sprint 2\obj\Debug\Group 9 - Pizza Project - Sprint 2.pdb
