@@ -38,10 +38,10 @@
             this.button3 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.listBox1 = new System.Windows.Forms.ListBox();
-            this.label1 = new System.Windows.Forms.Label();
             this.button5 = new System.Windows.Forms.Button();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.label1 = new System.Windows.Forms.Label();
+            this.listBox1 = new System.Windows.Forms.ListBox();
             this.panel17.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer33)).BeginInit();
             this.splitContainer33.Panel1.SuspendLayout();
@@ -174,6 +174,18 @@
             this.panel1.Size = new System.Drawing.Size(845, 592);
             this.panel1.TabIndex = 26;
             // 
+            // button5
+            // 
+            this.button5.BackColor = System.Drawing.Color.Firebrick;
+            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button5.Location = new System.Drawing.Point(30, 485);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(225, 60);
+            this.button5.TabIndex = 1;
+            this.button5.Text = "Order Now";
+            this.button5.UseVisualStyleBackColor = false;
+            // 
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.SystemColors.AppWorkspace;
@@ -186,15 +198,6 @@
             this.panel2.Size = new System.Drawing.Size(261, 418);
             this.panel2.TabIndex = 0;
             // 
-            // listBox1
-            // 
-            this.listBox1.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.listBox1.FormattingEnabled = true;
-            this.listBox1.Location = new System.Drawing.Point(10, 53);
-            this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(241, 355);
-            this.listBox1.TabIndex = 0;
-            // 
             // label1
             // 
             this.label1.AutoSize = true;
@@ -205,17 +208,15 @@
             this.label1.TabIndex = 1;
             this.label1.Text = "My Cart:";
             // 
-            // button5
+            // listBox1
             // 
-            this.button5.BackColor = System.Drawing.Color.Firebrick;
-            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button5.Location = new System.Drawing.Point(30, 485);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(225, 60);
-            this.button5.TabIndex = 1;
-            this.button5.Text = "Order Now";
-            this.button5.UseVisualStyleBackColor = false;
+            this.listBox1.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.listBox1.FormattingEnabled = true;
+            this.listBox1.Location = new System.Drawing.Point(10, 53);
+            this.listBox1.Name = "listBox1";
+            this.listBox1.Size = new System.Drawing.Size(241, 355);
+            this.listBox1.TabIndex = 0;
+            this.listBox1.SelectedIndexChanged += new System.EventHandler(this.listBox1_SelectedIndexChanged);
             // 
             // CartForm
             // 

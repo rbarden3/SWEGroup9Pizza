@@ -39,7 +39,8 @@ namespace Group_9___Pizza_Project___Sprint_2
 
         private void button3_Click(object sender, EventArgs e)
         {
-
+            CartForm cf = new CartForm();
+            cf.ShowDialog();
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -80,6 +81,12 @@ namespace Group_9___Pizza_Project___Sprint_2
         private void flowLayoutPanel4_Paint(object sender, PaintEventArgs e)
         {
 
+        }
+
+        private void button24_Click(object sender, EventArgs e)
+        {
+            Form2 f2 = new Form2();
+            f2.ShowDialog();
         }
     }
 }

@@ -66,5 +66,16 @@ namespace Group_9___Pizza_Project___Sprint_2
         {
 
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            CartForm cf = new CartForm();
+            cf.ShowDialog();
+        }
+
+        private void radioButton8_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
