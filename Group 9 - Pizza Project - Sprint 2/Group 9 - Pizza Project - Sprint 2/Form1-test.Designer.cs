@@ -35,11 +35,10 @@
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.flowLayoutPanel3 = new System.Windows.Forms.FlowLayoutPanel();
             this.splitContainer33 = new System.Windows.Forms.SplitContainer();
-            this.panel17 = new System.Windows.Forms.Panel();
             this.button21 = new System.Windows.Forms.Button();
             this.splitContainer34 = new System.Windows.Forms.SplitContainer();
+            this.panel17 = new System.Windows.Forms.Panel();
             this.splitContainer39 = new System.Windows.Forms.SplitContainer();
-            this.splitContainer40 = new System.Windows.Forms.SplitContainer();
             this.flowLayoutPanel4 = new System.Windows.Forms.FlowLayoutPanel();
             this.panel20 = new System.Windows.Forms.Panel();
             this.splitContainer41 = new System.Windows.Forms.SplitContainer();
@@ -120,6 +119,7 @@
             this.splitContainer76 = new System.Windows.Forms.SplitContainer();
             this.textBox36 = new System.Windows.Forms.TextBox();
             this.button42 = new System.Windows.Forms.Button();
+            this.splitContainer40 = new System.Windows.Forms.SplitContainer();
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
             this.panel6 = new System.Windows.Forms.Panel();
             this.splitContainer11 = new System.Windows.Forms.SplitContainer();
@@ -207,18 +207,14 @@
             this.splitContainer33.Panel1.SuspendLayout();
             this.splitContainer33.Panel2.SuspendLayout();
             this.splitContainer33.SuspendLayout();
-            this.panel17.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer34)).BeginInit();
             this.splitContainer34.Panel2.SuspendLayout();
             this.splitContainer34.SuspendLayout();
+            this.panel17.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer39)).BeginInit();
             this.splitContainer39.Panel1.SuspendLayout();
             this.splitContainer39.Panel2.SuspendLayout();
             this.splitContainer39.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.splitContainer40)).BeginInit();
-            this.splitContainer40.Panel1.SuspendLayout();
-            this.splitContainer40.Panel2.SuspendLayout();
-            this.splitContainer40.SuspendLayout();
             this.flowLayoutPanel4.SuspendLayout();
             this.panel20.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer41)).BeginInit();
@@ -351,6 +347,10 @@
             this.splitContainer76.Panel1.SuspendLayout();
             this.splitContainer76.Panel2.SuspendLayout();
             this.splitContainer76.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.splitContainer40)).BeginInit();
+            this.splitContainer40.Panel1.SuspendLayout();
+            this.splitContainer40.Panel2.SuspendLayout();
+            this.splitContainer40.SuspendLayout();
             this.flowLayoutPanel1.SuspendLayout();
             this.panel6.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer11)).BeginInit();
@@ -566,17 +566,6 @@
             this.splitContainer33.SplitterDistance = 269;
             this.splitContainer33.TabIndex = 23;
             // 
-            // panel17
-            // 
-            this.panel17.BackColor = System.Drawing.Color.Coral;
-            this.panel17.Controls.Add(this.splitContainer33);
-            this.panel17.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel17.Location = new System.Drawing.Point(0, 0);
-            this.panel17.Name = "panel17";
-            this.panel17.Padding = new System.Windows.Forms.Padding(5);
-            this.panel17.Size = new System.Drawing.Size(832, 69);
-            this.panel17.TabIndex = 24;
-            // 
             // button21
             // 
             this.button21.BackColor = System.Drawing.Color.Coral;
@@ -606,6 +595,17 @@
             this.splitContainer34.SplitterDistance = 80;
             this.splitContainer34.TabIndex = 0;
             // 
+            // panel17
+            // 
+            this.panel17.BackColor = System.Drawing.Color.Coral;
+            this.panel17.Controls.Add(this.splitContainer33);
+            this.panel17.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel17.Location = new System.Drawing.Point(0, 0);
+            this.panel17.Name = "panel17";
+            this.panel17.Padding = new System.Windows.Forms.Padding(5);
+            this.panel17.Size = new System.Drawing.Size(832, 69);
+            this.panel17.TabIndex = 24;
+            // 
             // splitContainer39
             // 
             this.splitContainer39.BackColor = System.Drawing.SystemColors.ActiveCaption;
@@ -624,25 +624,6 @@
             this.splitContainer39.Size = new System.Drawing.Size(832, 614);
             this.splitContainer39.SplitterDistance = 240;
             this.splitContainer39.TabIndex = 25;
-            // 
-            // splitContainer40
-            // 
-            this.splitContainer40.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.splitContainer40.Location = new System.Drawing.Point(0, 0);
-            this.splitContainer40.Name = "splitContainer40";
-            this.splitContainer40.Orientation = System.Windows.Forms.Orientation.Horizontal;
-            // 
-            // splitContainer40.Panel1
-            // 
-            this.splitContainer40.Panel1.Controls.Add(this.flowLayoutPanel1);
-            // 
-            // splitContainer40.Panel2
-            // 
-            this.splitContainer40.Panel2.Controls.Add(this.button24);
-            this.splitContainer40.Panel2.Padding = new System.Windows.Forms.Padding(5);
-            this.splitContainer40.Size = new System.Drawing.Size(832, 370);
-            this.splitContainer40.SplitterDistance = 278;
-            this.splitContainer40.TabIndex = 0;
             // 
             // flowLayoutPanel4
             // 
@@ -1691,6 +1672,25 @@
             this.button42.TabIndex = 10;
             this.button42.Text = "Add to Cart";
             this.button42.UseVisualStyleBackColor = true;
+            // 
+            // splitContainer40
+            // 
+            this.splitContainer40.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.splitContainer40.Location = new System.Drawing.Point(0, 0);
+            this.splitContainer40.Name = "splitContainer40";
+            this.splitContainer40.Orientation = System.Windows.Forms.Orientation.Horizontal;
+            // 
+            // splitContainer40.Panel1
+            // 
+            this.splitContainer40.Panel1.Controls.Add(this.flowLayoutPanel1);
+            // 
+            // splitContainer40.Panel2
+            // 
+            this.splitContainer40.Panel2.Controls.Add(this.button24);
+            this.splitContainer40.Panel2.Padding = new System.Windows.Forms.Padding(5);
+            this.splitContainer40.Size = new System.Drawing.Size(832, 370);
+            this.splitContainer40.SplitterDistance = 278;
+            this.splitContainer40.TabIndex = 0;
             // 
             // flowLayoutPanel1
             // 
@@ -2768,18 +2768,14 @@
             this.splitContainer33.Panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer33)).EndInit();
             this.splitContainer33.ResumeLayout(false);
-            this.panel17.ResumeLayout(false);
             this.splitContainer34.Panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer34)).EndInit();
             this.splitContainer34.ResumeLayout(false);
+            this.panel17.ResumeLayout(false);
             this.splitContainer39.Panel1.ResumeLayout(false);
             this.splitContainer39.Panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer39)).EndInit();
             this.splitContainer39.ResumeLayout(false);
-            this.splitContainer40.Panel1.ResumeLayout(false);
-            this.splitContainer40.Panel2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.splitContainer40)).EndInit();
-            this.splitContainer40.ResumeLayout(false);
             this.flowLayoutPanel4.ResumeLayout(false);
             this.panel20.ResumeLayout(false);
             this.splitContainer41.Panel1.ResumeLayout(false);
@@ -2938,6 +2934,10 @@
             this.splitContainer76.Panel2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer76)).EndInit();
             this.splitContainer76.ResumeLayout(false);
+            this.splitContainer40.Panel1.ResumeLayout(false);
+            this.splitContainer40.Panel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.splitContainer40)).EndInit();
+            this.splitContainer40.ResumeLayout(false);
             this.flowLayoutPanel1.ResumeLayout(false);
             this.panel6.ResumeLayout(false);
             this.splitContainer11.Panel1.ResumeLayout(false);
