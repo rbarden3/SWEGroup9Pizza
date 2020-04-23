@@ -412,6 +412,7 @@
             this.radioButton1.TabIndex = 0;
             this.radioButton1.Text = "Small";
             this.radioButton1.UseVisualStyleBackColor = true;
+            this.radioButton1.CheckedChanged += new System.EventHandler(this.radioButton1_CheckedChanged);
             // 
             // splitContainer4
             // 
@@ -427,7 +428,7 @@
             // 
             this.splitContainer4.Panel2.Controls.Add(this.splitContainer6);
             this.splitContainer4.Size = new System.Drawing.Size(678, 269);
-            this.splitContainer4.SplitterDistance = 120;
+            this.splitContainer4.SplitterDistance = 119;
             this.splitContainer4.TabIndex = 5;
             // 
             // splitContainer5
@@ -444,7 +445,7 @@
             // splitContainer5.Panel2
             // 
             this.splitContainer5.Panel2.Controls.Add(this.panel3);
-            this.splitContainer5.Size = new System.Drawing.Size(120, 153);
+            this.splitContainer5.Size = new System.Drawing.Size(119, 153);
             this.splitContainer5.SplitterDistance = 31;
             this.splitContainer5.TabIndex = 2;
             // 
@@ -455,7 +456,7 @@
             this.textBox2.Margin = new System.Windows.Forms.Padding(0);
             this.textBox2.Name = "textBox2";
             this.textBox2.ReadOnly = true;
-            this.textBox2.Size = new System.Drawing.Size(120, 20);
+            this.textBox2.Size = new System.Drawing.Size(119, 20);
             this.textBox2.TabIndex = 0;
             this.textBox2.Text = "Crust:";
             this.textBox2.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
@@ -469,7 +470,7 @@
             this.panel3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel3.Location = new System.Drawing.Point(0, 0);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(120, 118);
+            this.panel3.Size = new System.Drawing.Size(119, 118);
             this.panel3.TabIndex = 1;
             // 
             // radioButton5
@@ -526,7 +527,7 @@
             // splitContainer6.Panel2
             // 
             this.splitContainer6.Panel2.Controls.Add(this.splitContainer8);
-            this.splitContainer6.Size = new System.Drawing.Size(554, 269);
+            this.splitContainer6.Size = new System.Drawing.Size(555, 269);
             this.splitContainer6.SplitterDistance = 113;
             this.splitContainer6.TabIndex = 6;
             // 
@@ -625,7 +626,7 @@
             // splitContainer8.Panel2
             // 
             this.splitContainer8.Panel2.Controls.Add(this.splitContainer13);
-            this.splitContainer8.Size = new System.Drawing.Size(437, 269);
+            this.splitContainer8.Size = new System.Drawing.Size(438, 269);
             this.splitContainer8.SplitterDistance = 130;
             this.splitContainer8.TabIndex = 6;
             // 
@@ -723,7 +724,7 @@
             // splitContainer13.Panel2
             // 
             this.splitContainer13.Panel2.Controls.Add(this.splitContainer15);
-            this.splitContainer13.Size = new System.Drawing.Size(303, 269);
+            this.splitContainer13.Size = new System.Drawing.Size(304, 269);
             this.splitContainer13.SplitterDistance = 138;
             this.splitContainer13.TabIndex = 6;
             // 
@@ -790,7 +791,7 @@
             // 
             this.splitContainer15.Panel2.Controls.Add(this.VeggieToppingsBox);
             this.splitContainer15.Panel2.Padding = new System.Windows.Forms.Padding(10);
-            this.splitContainer15.Size = new System.Drawing.Size(161, 153);
+            this.splitContainer15.Size = new System.Drawing.Size(162, 153);
             this.splitContainer15.SplitterDistance = 31;
             this.splitContainer15.TabIndex = 3;
             // 
@@ -801,7 +802,7 @@
             this.textBox7.Margin = new System.Windows.Forms.Padding(0);
             this.textBox7.Name = "textBox7";
             this.textBox7.ReadOnly = true;
-            this.textBox7.Size = new System.Drawing.Size(161, 20);
+            this.textBox7.Size = new System.Drawing.Size(162, 20);
             this.textBox7.TabIndex = 0;
             this.textBox7.Text = "Toppings:";
             // 
@@ -818,7 +819,7 @@
             "Tomatoes"});
             this.VeggieToppingsBox.Location = new System.Drawing.Point(10, 10);
             this.VeggieToppingsBox.Name = "VeggieToppingsBox";
-            this.VeggieToppingsBox.Size = new System.Drawing.Size(141, 98);
+            this.VeggieToppingsBox.Size = new System.Drawing.Size(142, 98);
             this.VeggieToppingsBox.TabIndex = 2;
             this.VeggieToppingsBox.SelectedIndexChanged += new System.EventHandler(this.checkedListBox1_SelectedIndexChanged_1);
             // 

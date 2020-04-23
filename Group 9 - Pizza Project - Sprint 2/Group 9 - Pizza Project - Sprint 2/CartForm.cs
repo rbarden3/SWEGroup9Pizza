@@ -31,5 +31,10 @@ namespace Group_9___Pizza_Project___Sprint_2
         {
 
         }
+
+        private void panel2_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }

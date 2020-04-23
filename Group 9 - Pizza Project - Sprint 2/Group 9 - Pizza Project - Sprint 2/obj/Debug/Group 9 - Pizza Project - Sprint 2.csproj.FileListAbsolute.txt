@@ -20,3 +20,4 @@ C:\Users\User\Documents\SWE Project\SWEGroup9Pizza-master\Group 9 - Pizza Projec
 C:\Users\User\Documents\SWE Project\SWEGroup9Pizza-master\Group 9 - Pizza Project - Sprint 2\Group 9 - Pizza Project - Sprint 2\obj\Debug\Group 9 - Pizza Project - Sprint 2.csproj.CoreCompileInputs.cache
 C:\Users\User\Documents\SWE Project\SWEGroup9Pizza-master\Group 9 - Pizza Project - Sprint 2\Group 9 - Pizza Project - Sprint 2\obj\Debug\Group 9 - Pizza Project - Sprint 2.exe
 C:\Users\User\Documents\SWE Project\SWEGroup9Pizza-master\Group 9 - Pizza Project - Sprint 2\Group 9 - Pizza Project - Sprint 2\obj\Debug\Group 9 - Pizza Project - Sprint 2.pdb
+C:\Users\Raleigh\Documents\GitHub\SWEGroup9Pizza\Group 9 - Pizza Project - Sprint 2\Group 9 - Pizza Project - Sprint 2\obj\Debug\Group_9___Pizza_Project___Sprint_2.CartForm.resources
