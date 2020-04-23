@@ -197,7 +197,6 @@
             this.panel2.Padding = new System.Windows.Forms.Padding(10);
             this.panel2.Size = new System.Drawing.Size(261, 418);
             this.panel2.TabIndex = 0;
-            this.panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint);
             // 
             // label1
             // 
@@ -213,7 +212,6 @@
             // 
             this.listBox1.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.listBox1.FormattingEnabled = true;
-            this.listBox1.HorizontalScrollbar = true;
             this.listBox1.Location = new System.Drawing.Point(10, 53);
             this.listBox1.Name = "listBox1";
             this.listBox1.Size = new System.Drawing.Size(241, 355);
@@ -259,7 +257,7 @@
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Label label1;
-        public System.Windows.Forms.ListBox listBox1;
+        private System.Windows.Forms.ListBox listBox1;
         private System.Windows.Forms.Button button5;
     }
 }
